@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудио | Мама-главное слово</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Мама-главное слово</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-btn">Главная</a></li>
+                    <li><a href="text.html" class="nav-btn">Текст</a></li>
+                    <li><a href="audio.html" class="nav-btn active">Аудио</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="audio-hero">
+                <h2>Аудиоплеер</h2>
+                <p>Слушайте песню "Мама-главное слово"</p>
+            </section>
+
+            <section class="player-section">
+                <div class="player-card">
+                    <div class="album-art">
+                        <img src="cover.jpg" alt="Обложка" class="cover-image">
+                    </div>
+                    
+                    <div class="player-content">
+                        <div class="track-info">
+                            <h3>Мама-главное слово</h3>
+                            <p>Детская лирическая песня</p>
+                        </div>
+
+                        <div class="audio-player">
+                            <audio controls style="width: 100%;">
+                                <source src="song.mp3" type="audio/mpeg">
+                                Ваш браузер не поддерживает аудио элемент.
+                            </audio>
+                        </div>
+
+                        <div class="download-section">
+                            <a href="song.mp3" download class="btn btn-primary">Скачать трек</a>
+                            <a href="text.pdf" download class="btn btn-secondary">Скачать текст PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Мама-главное слово © 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
